@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/bakeuri",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bake HTML/Markdown uri fragments safely for docs pipelines.",
+  "bin": {
+    "bakeuri": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/bakeuri.git"
+  },
+  "homepage": "https://theworker02.github.io/bakeuri/",
+  "keywords": [
+    "bake",
+    "uri",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
